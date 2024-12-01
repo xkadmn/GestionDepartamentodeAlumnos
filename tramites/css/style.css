@@ -1,0 +1,99 @@
+.container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  border: 1px solid #25b6d0;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+
+}
+
+.card-header {
+  color: white;
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-btn {
+  font-size: 1.5rem;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.card-body {
+  background-color: white;
+  padding: 40px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.card-title {
+  color: #333;
+  font-family: 'Kumbh Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #555;
+  font-family: 'Kumbh Sans', Arial, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.estado {
+  font-weight: bold;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+}
+
+/* Diferentes colores para el estado del trámite */
+.estado-pendiente {
+  background-color: #ffc107;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px black;
+}
+
+.estado-proceso {
+  background-color: #17a2b8;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.estado-completado {
+  background-color: #28a745;
+  color: #fff;
+  text-shadow: 1px 1px 1px black;
+}
+
+.btn-download {
+  margin-top: 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.btn-download:hover {
+  background-color: #0056b3;
+}
